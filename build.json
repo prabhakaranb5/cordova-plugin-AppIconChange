@@ -1,7 +1,7 @@
 {
   "ios": {
       "debug": {
-          "codeSignIdentity": "iPhone Developer",
+          "codeSignIdentity": "Apple Development",
           "developmentTeam": "N25YKPV8U5",
           "packageType": "development",
           "automaticProvisioning": true,
@@ -13,7 +13,7 @@
           ]
       },
       "release": {
-          "codeSignIdentity": "iPhone Developer",
+          "codeSignIdentity": "Apple Distribution",
           "developmentTeam": "T57RH2WT3W",
           "packageType": "app-store",
           "automaticProvisioning": true,
