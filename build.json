@@ -3,24 +3,22 @@
       "debug": {
           "codeSignIdentity": "Apple Development",
           "developmentTeam": "N25YKPV8U5",
-          "packageType": "development",
+          "packageType": "Development",
           "automaticProvisioning": true,
           "buildFlag": [
               "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES",
               "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO",
-              "-UseModernBuildSystem=0",
               "-allowProvisioningUpdates=0"
           ]
       },
       "release": {
           "codeSignIdentity": "Apple Distribution",
           "developmentTeam": "T57RH2WT3W",
-          "packageType": "app-store",
+          "packageType": "Ad-hoc",
           "automaticProvisioning": true,
           "buildFlag": [
               "EMBEDDED_CONTENT_CONTAINS_SWIFT = YES",
               "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES=NO",
-              "-UseModernBuildSystem=0",
               "-allowProvisioningUpdates=0"
           ]
       }
