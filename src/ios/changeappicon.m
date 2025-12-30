@@ -11,7 +11,7 @@ BOOL IsErr;
 - (void)ChanageToIcon:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
-	NSString* IconName = "Icon1";
+	NSString* IconName = [command.arguments objectAtIndex:0];
 	IsErr = false;
 	NSLog(@"Error... %@", IconName);
 	[[UIApplication sharedApplication] setAlternateIconName:IconName completionHandler:^(NSError * _Nullable error) {
